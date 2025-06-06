@@ -1,5 +1,14 @@
 # Nuxt Minimal Starter
 
+Module:
+Nuxt Fonts
+Nuxt UI
+Nuxt Icons
+Nuxt Image
+
+Library:
+Tailwindcss/Vite 4
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
