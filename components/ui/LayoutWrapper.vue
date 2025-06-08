@@ -11,7 +11,7 @@
 
     <!-- Scrollable Content on Right -->
     <div
-      class="w-full md:w-[30%] md:ml-auto h-screen overflow-y-scroll snap-y snap-mandatory"
+      class="w-full md:w-[30%] md:ml-auto h-screen overflow-y-scroll scroll-smooth md:bg-[#0d0e10]"
     >
       <NuxtPage />
     </div>
