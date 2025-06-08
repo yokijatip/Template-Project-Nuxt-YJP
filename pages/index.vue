@@ -7,6 +7,8 @@
     <Countdown />
     <Event />
     <Gallery />
+    <Gift />
+    <ThankYou />
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import OurStory from "~/components/sections/OurStory.vue";
 import Countdown from "~/components/sections/Countdown.vue";
 import Event from "~/components/sections/Event.vue";
 import Gallery from "~/components/sections/Gallery.vue";
+import Gift from "~/components/sections/Gift.vue";
+import ThankYou from "~/components/sections/ThankYou.vue";
 </script>
 
 <style>
