@@ -9,7 +9,24 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-const images = ["/img/hero1.jpg", "/img/hero2.jpg", "/img/hero3.jpg"];
+const images = [
+  "/img/hero1.jpg",
+  "/img/hero3.jpg",
+  "/img/gallery1.jpg",
+  "/img/gallery2.jpg",
+  "/img/gallery3.jpg",
+  "/img/gallery4.jpg",
+  "/img/gallery5.jpg",
+  "/img/gallery6.jpg",
+  "/img/gallery7.jpg",
+  "/img/gallery8.jpg",
+  "/img/gallery9.jpg",
+  "/img/gallery10.jpg",
+  "/img/gallery11.jpg",
+  "/img/ourstory1.jpg",
+  "/img/ourstory2.jpg",
+  "/img/ourstory3.jpg",
+];
 
 const currentImage = ref(images[0]);
 let index = 0;

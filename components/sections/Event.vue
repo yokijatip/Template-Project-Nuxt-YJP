@@ -17,13 +17,11 @@
           <h3 class="text-xs font-sans tracking-wider text-primary-white">
             08.00 - 09.00 WIB
           </h3>
-          <h2 class="font-serif uppercase text-white">
-            kediaman mempelai wanita
-          </h2>
+          <h2 class="font-serif uppercase text-white">Gedung</h2>
           <p
             class="text-xs font-sans tracking-wider font-thin text-primary-white"
           >
-            Kp. Sukamaju 03/09 Desa Sarimukti, Kec. Cipatat, Kab.Bandung Barat
+            Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja
           </p>
           <!-- Tombol Lihat Lokasi -->
           <button
@@ -45,13 +43,11 @@
           <h3 class="text-xs font-sans tracking-wider text-primary-white">
             11.00 - 15.00 WIB
           </h3>
-          <h2 class="font-serif uppercase text-white">
-            kediaman mempelai wanita
-          </h2>
+          <h2 class="font-serif uppercase text-white">Gedung</h2>
           <p
             class="text-xs font-sans tracking-wider font-thin text-primary-white"
           >
-            Kp. Sukamaju 03/09 Desa Sarimukti, Kec. Cipatat, Kab.Bandung Barat
+            Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja
           </p>
           <!-- Tombol Lihat Lokasi -->
           <button
@@ -67,10 +63,12 @@
 </template>
 
 <script setup>
-const openMap = (type) => {
-  const locationUrl =
-    "https://maps.google.com/?q=Kp.+Sukamaju+03%2F09+Desa+Sarimukti,+Kec.+Cipatat,+Kab.+Bandung+Barat";
-  window.open(locationUrl, "_blank");
+const openMap = () => {
+  const address = encodeURIComponent(
+    "Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja"
+  );
+  const mapsUrl = `https://maps.google.com/maps?q=${address}`;
+  window.open(mapsUrl, "_blank");
 };
 </script>
 

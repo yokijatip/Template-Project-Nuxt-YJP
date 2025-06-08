@@ -84,46 +84,10 @@
         </div>
       </div>
     </section>
-
-    <!-- Floating Music Control -->
-    <div class="fixed bottom-6 right-6 z-20">
-      <button
-        @click="toggleMusic"
-        class="bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all duration-300 shadow-lg"
-      >
-        <svg
-          v-if="isMusicPlaying"
-          class="w-6 h-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-        </svg>
-        <svg v-else class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M8 5v14l11-7z" />
-        </svg>
-      </button>
-    </div>
   </div>
 </template>
 
-<script setup>
-// Music state
-const isMusicPlaying = ref(false);
-
-// Toggle music function
-const toggleMusic = () => {
-  isMusicPlaying.value = !isMusicPlaying.value;
-  // Implement actual music play/pause logic here
-  if (isMusicPlaying.value) {
-    // Play music
-    console.log("Playing music...");
-  } else {
-    // Pause music
-    console.log("Pausing music...");
-  }
-};
-</script>
+<script setup></script>
 
 <style scoped>
 /* Additional custom styles if needed */
