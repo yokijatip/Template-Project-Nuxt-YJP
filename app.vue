@@ -1,9 +1,9 @@
 <template>
   <div>
-    <HelloWorld />
+    <NuxtPage />
   </div>
 </template>
 
-<script setup>
-import HelloWorld from "./components/sections/Hero.vue";
-</script>
+<script setup></script>
+
+<style scoped></style>

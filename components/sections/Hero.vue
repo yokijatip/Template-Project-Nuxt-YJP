@@ -1,17 +1,16 @@
 <template>
   <div>
-    <!-- Background image put in this section -->
     <!-- Set the overlay shadow for image background -->
     <section
-      class="min-h-screen bg-[url(@/assets/images/gallery/IMG_3379.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
+      class="bg-[url(@/assets/images/gallery/IMG_3379.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
     >
       <!-- Content -->
       <div
-        class="container mx-auto flex flex-col items-center justify-between min-h-screen text-[#c8c8c8]"
+        class="container mx-auto flex flex-col items-center justify-between min-h-screen text-primary-white"
       >
         <!-- Top Content -->
         <div
-          class="flex flex-row items-center gap-2 justify-between w-full p-12 text-xs/4 md:text-md font-semibold font-sans mt-12 text-center"
+          class="flex flex-row items-center gap-2 justify-between w-full p-12 text-xs/4 md:text-md font-bold font-sans mt-12 text-center"
         >
           <!-- Day -->
           <p>
@@ -33,7 +32,7 @@
         </div>
 
         <!-- Bottom Content -->
-        <div class="flex flex-col items-center gap-5 p-10 mb-12">
+        <div class="flex flex-col items-center gap-5 p-10 mb-32">
           <h2 class="text-2xl font-cursive">The Wedding Of</h2>
           <h1 class="text-4xl font-serif">Ghani & Wiwit</h1>
           <p class="text-center text-xs font-sans md:w-1/2">
