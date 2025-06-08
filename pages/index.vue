@@ -243,7 +243,6 @@ body.no-scroll {
 
 /* Custom slider styling */
 .slider {
-  -webkit-appearance: none;
   background: rgba(255, 255, 255, 0.3);
   outline: none;
   border-radius: 15px;
