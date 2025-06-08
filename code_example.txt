@@ -1,0 +1,117 @@
+Hero.vue:
+<template>
+  <div>
+    <!-- Set the overlay shadow for image background -->
+    <section
+      class="bg-[url(@/assets/images/gallery/IMG_3379.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
+    >
+      <!-- Content -->
+      <div
+        class="container mx-auto flex flex-col items-center justify-between min-h-screen text-primary-white"
+      >
+        <!-- Top Content -->
+        <div
+          class="flex flex-row items-center gap-2 justify-between w-full p-12 text-xs/4 md:text-md font-bold font-sans mt-12 text-center"
+        >
+          <!-- Day -->
+          <p>
+            HARI <br />
+            MINGGU
+          </p>
+
+          <!-- Date -->
+          <p>
+            BULAN <br />
+            08 JUN
+          </p>
+
+          <!-- Year -->
+          <p>
+            TAHUN <br />
+            2025
+          </p>
+        </div>
+
+        <!-- Bottom Content -->
+        <div class="flex flex-col items-center gap-5 p-10 mb-32">
+          <h2 class="text-2xl font-cursive">The Wedding Of</h2>
+          <h1 class="text-4xl font-serif">Ghani & Wiwit</h1>
+          <p class="text-center text-xs font-sans md:w-1/2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            dolores! Ad nulla odio voluptas quidem? Cupiditate fugiat
+            dignissimos ratione odio ducimus voluptas eligendi cum.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup></script>
+
+<style></style>
+
+TheBride.vue:
+<template>
+  <div>
+    <section
+      class="min-h-screen bg-[url(@/assets/images/couple/IMG_3410.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)] text-primary-white flex flex-col items-start justify-end"
+    >
+      <!-- Content -->
+      <div class="flex flex-col items-start gap-2 p-8 mb-30">
+        <h2 class="text-3xl font-cursive">The Bride</h2>
+        <h1 class="text-4xl font-serif font-medium">Wiwit Widyahani</h1>
+        <!-- Add Horzontal Small Line and thin -->
+        <div class="h-[0.1px] w-1/4 bg-primary-white"></div>
+        <p class="uppercase text-start text-md font-serif font-semibold">
+          putri pertama dari
+        </p>
+        <div class="flex flex-row gap-3">
+          <p
+            class="text-start text-xs/3 font-sans md:w-1/2 font-medium tracking-widest"
+          >
+            Bpk. Dedih <br />
+            & Ibu Idawati
+          </p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="flex items-center space-x-2 justify-center mt-4">
+          <Icon name="mdi:instagram" class="w-6 h-6 text-primary-white" />
+          <a
+            href="https://instagram.com/wiwitwidyahani"
+            target="_blank"
+            class="font-sans text-primary-700 hover:text-primary-500 transition-colors duration-300 font-semibold text-xs"
+          >
+            wiwit
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup></script>
+
+main.css:
+@import "tailwindcss";
+
+@theme 
+  /* Custom Fonts */
+  --font-cursive: "Tangerine", cursive;
+  --font-sans: "Open Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+
+  /* Custom Font Color */
+  --color-primary-white: #d9d9d9;
+
+app.vue:
+<template>
+  <div>
+    <NuxtPage />
+  </div>
+</template>
+
+<script setup></script>
+
+<style scoped></style>

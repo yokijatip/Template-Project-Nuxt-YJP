@@ -1,7 +1,7 @@
 <template>
   <div>
     <section
-      class="min-h-screen bg-[url(@/assets/images/couple/IMG_3410.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)] text-primary-white flex flex-col items-start justify-end"
+      class="min-h-screen bg-[url(/img/wiwit.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)] text-primary-white flex flex-col items-start justify-end"
     >
       <!-- Content -->
       <div class="flex flex-col items-start gap-2 p-8 mb-30">

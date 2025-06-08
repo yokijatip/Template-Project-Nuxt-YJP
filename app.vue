@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <LayoutWrapper />
 </template>
 
-<script setup></script>
+<script setup>
+import LayoutWrapper from "~/components/ui/LayoutWrapper.vue";
+</script>
 
 <style scoped></style>
