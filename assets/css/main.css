@@ -99,19 +99,3 @@
     --font-size-subtitle: 1.25rem;
   }
 }
-
-/* Settings Font-face and weight */
-@font-face {
-  font-family: "Tangerine";
-  src: url("/fonts/Tangerine-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Open sans */
-@font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
