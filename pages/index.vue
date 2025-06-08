@@ -1,28 +1,33 @@
 <template>
-  <div class="scroll-container">
+  <div class="">
     <!-- Hero Section -->
-    <section class="snap-section">
+    <section class="">
       <Hero />
     </section>
 
     <!-- Bride Section -->
-    <section class="snap-section">
+    <section class="">
       <TheBride />
     </section>
 
     <!-- Groom Section -->
-    <section class="snap-section">
+    <section class="">
       <TheGroom />
     </section>
 
     <!-- Our Story Section -->
-    <section class="snap-section">
+    <section class="">
       <OurStory />
     </section>
 
     <!-- Countdown Section -->
-    <section class="snap-section">
+    <section class="n">
       <Countdown />
+    </section>
+
+    <!-- Event Section -->
+    <section class="">
+      <Event />
     </section>
   </div>
 </template>
@@ -33,6 +38,7 @@ import TheBride from "~/components/sections/TheBride.vue";
 import TheGroom from "~/components/sections/TheGroom.vue";
 import OurStory from "~/components/sections/OurStory.vue";
 import Countdown from "~/components/sections/Countdown.vue";
+import Event from "~/components/sections/Event.vue";
 </script>
 
 <style scoped>
@@ -45,7 +51,7 @@ import Countdown from "~/components/sections/Countdown.vue";
 
 .snap-section {
   height: 100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   scroll-snap-stop: always;
 }
 
@@ -63,5 +69,10 @@ import Countdown from "~/components/sections/Countdown.vue";
 
 .bw {
   border: 1px solid white;
+}
+
+/* Hide scroll bar */
+::-webkit-scrollbar {
+  display: none;
 }
 </style>

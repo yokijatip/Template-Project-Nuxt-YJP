@@ -1,28 +1,30 @@
 <template>
-  <div
-    class="flex flex-col items-center justify-center h-screen text-primary-white"
-  >
-    <!-- Title -->
-    <h1 class="text-3xl font-serif mb-2">SAVE THE DATE</h1>
-    <p class="text-3xl font-cursive mb-2">Countdown</p>
+  <div class="min-h-screen">
+    <div
+      class="flex flex-col items-center justify-center min-h-screen text-primary-white"
+    >
+      <!-- Title -->
+      <h1 class="text-3xl font-serif mb-2">SAVE THE DATE</h1>
+      <p class="text-3xl font-cursive mb-2">Countdown</p>
 
-    <!-- Countdown Timer -->
-    <div class="flex space-x-4 mb-2 font-serif">
-      <div class="flex flex-col items-center">
-        <span class="text-xl font-bold">{{ days }}</span>
-        <span class="text-lg font-medium">Hari</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <span class="text-xl font-bold">{{ hours }}</span>
-        <span class="text-lg font-medium">Jam</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <span class="text-xl font-bold">{{ minutes }}</span>
-        <span class="text-lg font-medium">Menit</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <span class="text-xl font-bold">{{ seconds }}</span>
-        <span class="text-lg font-medium">Detik</span>
+      <!-- Countdown Timer -->
+      <div class="flex space-x-4 mb-2 font-serif">
+        <div class="flex flex-col items-center">
+          <span class="text-xl font-bold">{{ days }}</span>
+          <span class="text-lg font-medium">Hari</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-xl font-bold">{{ hours }}</span>
+          <span class="text-lg font-medium">Jam</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-xl font-bold">{{ minutes }}</span>
+          <span class="text-lg font-medium">Menit</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-xl font-bold">{{ seconds }}</span>
+          <span class="text-lg font-medium">Detik</span>
+        </div>
       </div>
     </div>
   </div>

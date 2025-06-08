@@ -2,7 +2,7 @@
   <div class="h-screen w-screen overflow-hidden">
     <!-- Fixed Image for Desktop Only -->
     <div
-      class="hidden md:block w-1/2 h-full fixed top-0 left-0 bg-cover bg-bottom"
+      class="hidden md:block w-[70%] h-full fixed top-0 left-0 bg-cover bg-bottom"
       style="background-image: url('/img/hero3.jpg')"
     ></div>
 
@@ -11,7 +11,7 @@
 
     <!-- Scrollable Content on Right -->
     <div
-      class="w-full md:w-1/3 md:ml-auto h-screen overflow-y-scroll snap-y snap-mandatory"
+      class="w-full md:w-[30%] md:ml-auto h-screen overflow-y-scroll snap-y snap-mandatory"
     >
       <NuxtPage />
     </div>
@@ -23,10 +23,8 @@ import BackgroundSlideshowMobile from "~/components/ui/BackgroundSlideshowMobile
 </script>
 
 <style scoped>
-html,
-body {
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+/* Hide scroll bar */
+::-webkit-scrollbar {
+  display: none;
 }
 </style>
