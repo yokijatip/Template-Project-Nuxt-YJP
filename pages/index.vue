@@ -19,6 +19,11 @@
     <section class="snap-section">
       <OurStory />
     </section>
+
+    <!-- Countdown Section -->
+    <section class="snap-section">
+      <Countdown />
+    </section>
   </div>
 </template>
 
@@ -27,6 +32,7 @@ import Hero from "~/components/sections/Hero.vue";
 import TheBride from "~/components/sections/TheBride.vue";
 import TheGroom from "~/components/sections/TheGroom.vue";
 import OurStory from "~/components/sections/OurStory.vue";
+import Countdown from "~/components/sections/Countdown.vue";
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
   <!-- Background slideshow only visible on mobile -->
   <div
-    class="block md:hidden fixed top-0 left-0 w-full h-full -z-10 bg-cover bg-center transition-all duration-1000 ease-in-out"
+    class="block md:hidden fixed top-0 left-0 w-full h-full -z-10 bg-cover bg-center transition-all duration-7000 shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
     :style="`background-image: url(${currentImage})`"
   ></div>
 </template>
@@ -18,6 +18,6 @@ onMounted(() => {
   setInterval(() => {
     index = (index + 1) % images.length;
     currentImage.value = images[index];
-  }, 5000);
+  }, 7000);
 });
 </script>

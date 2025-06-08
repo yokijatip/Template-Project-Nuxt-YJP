@@ -1,9 +1,7 @@
 <template>
   <div>
     <!-- Set the overlay shadow for image background -->
-    <section
-      class="bg-[url(@/assets/images/gallery/IMG_3379.jpg)] bg-cover bg-center bg-no-repeat shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
-    >
+    <section>
       <!-- Content -->
       <div
         class="container mx-auto flex flex-col items-center justify-between min-h-screen text-primary-white"
