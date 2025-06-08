@@ -5,37 +5,22 @@
       v-if="!isInvitationOpened"
       class="fixed inset-0 z-50 bg-cover bg-center bg-no-repeat flex items-center justify-center"
       :style="{
-        backgroundImage: 'url(/images/opening-bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }"
     >
-      <!-- Dark Overlay -->
-      <div class="absolute inset-0 bg-black/50"></div>
-
       <!-- Content -->
       <div class="relative z-10 text-center text-white px-6 max-w-md mx-auto">
         <!-- Wedding Title -->
-        <div class="mb-24">
+        <div class="mb-12">
           <p class="text-sm font-light tracking-wider mb-2 opacity-90">
             THE WEDDING OF
           </p>
-          <h1 class="text-3xl md:text-4xl font-serif mb-2">
+          <h1 class="text-3xl md:text-4xl font-playfair mb-2">
             Ghani <span class="font-light">&</span> Wiwit
           </h1>
           <p class="text-sm font-light tracking-wider opacity-90">
             MINGGU, 8 JUNI 2025
-          </p>
-        </div>
-
-        <!-- Greeting Text -->
-        <div class="mb-8">
-          <p
-            class="text-xs leading-relaxed opacity-90 text-primary-white font-serif"
-          >
-            Tanpa mengurangi rasa hormat,<br />
-            kami mengundang anda untuk menghadiri<br />
-            acara pernikahan kami.
           </p>
         </div>
 
@@ -254,13 +239,6 @@ onMounted(() => {
 /* Prevent scrolling when opening is displayed */
 body.no-scroll {
   overflow: hidden;
-}
-
-/* Custom font for elegant look */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap");
-
-.font-serif {
-  font-family: "Playfair Display", serif;
 }
 
 /* Custom slider styling */

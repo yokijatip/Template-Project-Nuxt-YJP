@@ -34,9 +34,8 @@
           <h2 class="text-2xl font-cursive">The Wedding Of</h2>
           <h1 class="text-4xl font-serif">Ghani & Wiwit</h1>
           <p class="text-center text-xs font-sans md:w-1/2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-            dolores! Ad nulla odio voluptas quidem? Cupiditate fugiat
-            dignissimos ratione odio ducimus voluptas eligendi cum.
+            Tanpa mengurangi rasa hormat, kami mengundang anda untuk menghadiri
+            acara pernikahan kami.
           </p>
         </div>
       </div>
